@@ -4,6 +4,7 @@ import (
 	"design-patterns/creational/abstract_factory"
 	"design-patterns/creational/builder"
 	"design-patterns/creational/factory"
+	"design-patterns/creational/prototype"
 	"fmt"
 )
 
@@ -43,4 +44,7 @@ func main() {
 
 	// BUILDER PATTERN
 	builder.BuildDifferentPizzas()
+
+	// PROTOTYPE PATTERN
+	prototype.GetClone()
 }

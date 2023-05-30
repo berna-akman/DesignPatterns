@@ -7,6 +7,7 @@ import (
 	"design-patterns/creational/prototype"
 	"design-patterns/structural/adapter"
 	"design-patterns/structural/bridge"
+	"design-patterns/structural/composite"
 	"fmt"
 )
 
@@ -55,4 +56,7 @@ func main() {
 
 	// BRIDGE PATTERN
 	bridge.Send()
+
+	// COMPOSITE PATTERN
+	composite.GetFileDirectories()
 }

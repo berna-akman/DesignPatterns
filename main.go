@@ -5,6 +5,8 @@ import (
 	"design-patterns/creational/builder"
 	"design-patterns/creational/factory"
 	"design-patterns/creational/prototype"
+	"design-patterns/structural/adapter"
+	"design-patterns/structural/bridge"
 	"fmt"
 )
 
@@ -47,4 +49,10 @@ func main() {
 
 	// PROTOTYPE PATTERN
 	prototype.GetClone()
+
+	// ADAPTER PATTERN
+	adapter.GetPlayer()
+
+	// BRIDGE PATTERN
+	bridge.Send()
 }
